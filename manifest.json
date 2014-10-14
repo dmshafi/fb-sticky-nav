@@ -1,0 +1,12 @@
+{
+  "name": "Sticky nav for facebook",
+  "version": "0.0.1",
+  "description": "Allows the left navigation menu for facebook to be stickied",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://www.facebook.com/*","*://facebook.com/*"],
+      "css": ["src/css/sticky.css"]
+    }
+  ]
+}
