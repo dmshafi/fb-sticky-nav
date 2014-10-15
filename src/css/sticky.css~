@@ -1,4 +1,0 @@
-#leftCol{
-	position:fixed !important;
-	top: 3em !important;
-}
