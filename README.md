@@ -1,7 +1,10 @@
 Facebook-sticky-nav
 ===================
 
-A chrome extension to pin the left navigation column of facebook
+A chrome extension to pin the left navigation column of facebook.
+The extension pins the left side navigation menu of facebook so that 
+it always remains in focus. In addition it adds a scrollbar for 
+navigating through the menu.
 
 
 -----------------
@@ -17,9 +20,15 @@ Version History
 
 Functionalities include
 
------- Used javascript to insert css based on browser height.
------- Added scrollbar for accessing links outside screen area.
------- Added Pin/Unpin link
+* Used javascript to insert css based on browser height.
+* Added scrollbar for accessing links outside screen area.
+* Comment - FB doesn't reload whole page when clicking from
+	one link to the other instead they populate the corresponding
+	area. Have to look at that more precisely to be able to use
+	pin/unpin button. Because if someone starts from profile
+	page then goes back to homepage using Home link FB logo, then
+	content script is not triggered. 
+
 
 =============================================================
 
@@ -27,17 +36,14 @@ Functionalities include
 
 Hello world version. Functionalities include
 
------- Static CSS based assignment.
------- Pins the left navigation menu, regardless of user input
------- User cannot unpin the navigation menu.
------- Links that falls outside screen area, remains unaccessible.
+* Static CSS based assignment. 
+* Pins the left navigation menu, regardless of user input
+* User cannot unpin the navigation menu.
+* Links that falls outside screen area, remains unaccessible.
 
 
 -------------------
 License
 -------------------
 
--------------------
-Credits
---------------------
- <div>Icon made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+

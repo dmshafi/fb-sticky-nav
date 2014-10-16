@@ -1,7 +1,11 @@
 {
-  "name": "Sticky nav for facebook",
-  "version": "0.1.2",
-  "description": "Allows the left navigation menu for facebook to be stickied",
+  "name": "Sticky navigation menu for facebook",
+  "version": "0.2.0",
+  "description": "Pins the left side navigation menu of facebook so that it always
+  remains in focus. Adds a scrollbar for navigating through the menu.",
+  "icons": { "16": "gfx/icon16.png",
+           "48": "gfx/icon48.png",
+          "128": "gfx/icon128.png" },
   "manifest_version": 2,
   "content_scripts": [
     {
