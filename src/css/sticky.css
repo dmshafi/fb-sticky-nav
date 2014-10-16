@@ -1,4 +1,23 @@
 #leftCol{
 	position: fixed !important;
 	top: 3em !important;
+	background-image: url(http://cdn.flaticon.com/png/256/1658.png);
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position-x: 12em;
+	background-position-y: 3em;
+}
+
+#pinButton{
+	position: fixed;
+	left: 45px;
+	top: 5em;
+}
+::-webkit-scrollbar {
+	width: 3px;
+}
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 1px;
+	background: gray; 
+	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.5);
 }
